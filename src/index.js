@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import CylForce from './cylForce1'
+import CylForce from './cylForce'
 
 ReactDOM.render(
   <div>
