@@ -5,9 +5,15 @@ class Cord extends React.Component {
     super(props);
 
     this.state = {
-      1: ['','',''],
-      2: ['','',''],
-      3: ['','',''],
+      1: ["", "", ""],
+      2: ["", "", ""],
+      3: ["", "", ""],
+      4: ["", "", ""],
+      5: ["", "", ""],
+      6: ["", "", ""],
+      7: ["", "", ""],
+      8: ["", "", ""],
+      9: ["", "", ""],
     };
   }
 
@@ -19,6 +25,7 @@ class Cord extends React.Component {
     this.setState({ [name]: newPos });
   };
 
+  //used in onHandleClick
   makeArray(name) {
     let array = [];
     let list = document.getElementsByName(name);
@@ -34,8 +41,9 @@ class Cord extends React.Component {
     return array;
   }
 
+  //Used in render
   calculateStepLength(a, b) {
-    if (a.includes('') || b.includes('')){
+    if (a.includes("") || b.includes("")) {
       return 0;
     }
     let stplngth =
@@ -55,7 +63,7 @@ class Cord extends React.Component {
       // console.log(b);
       let stepLength = this.calculateStepLength(a, b);
       // console.log('Step: '+stepLength);
-      totalLength += stepLength;     
+      totalLength += stepLength;
       // console.log('Total: '+totalLength);
     }
 
@@ -78,6 +86,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="1"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -86,6 +95,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="1"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -94,6 +104,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="1"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -105,6 +116,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="2"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -113,6 +125,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="2"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -121,6 +134,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="2"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -132,6 +146,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="3"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -140,6 +155,7 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="3"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
@@ -148,7 +164,188 @@ class Cord extends React.Component {
                 <td>
                   <input
                     type="number"
+                    className="data"
                     name="3"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 4</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="4"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="4"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="4"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 5</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="5"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="5"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="5"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 6</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="6"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="6"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="6"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 7</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="7"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="7"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="7"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 8</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="8"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="8"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="8"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Position 9</td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="9"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="9"
+                    style={{ width: "100px" }}
+                    onChange={this.onHandleClick}
+                  />
+                </td>
+                <td>
+                  <input
+                    type="number"
+                    className="data"
+                    name="9"
                     style={{ width: "100px" }}
                     onChange={this.onHandleClick}
                   />
@@ -157,11 +354,40 @@ class Cord extends React.Component {
             </tbody>
           </table>
           <label>Total Length: </label>
-          <label>{totalLength}</label>
+          <label>{totalLength.toFixed(2)}</label>
+        </div>
+        <div>
+          <button type="button" onClick={this.clearAll}>
+            Clear all fields
+          </button>
         </div>
       </div>
     );
-  }
-}
+  } //render ends here.
+
+  clearAll = (e) => {
+    console.log("Button Clicked");
+
+    //clear all fields
+    var elements = [];
+    elements = document.getElementsByClassName("data");
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].value = "";
+    }
+
+    //set state back to original state
+    this.setState({
+      1: ["", "", ""],
+      2: ["", "", ""],
+      3: ["", "", ""],
+      4: ["", "", ""],
+      5: ["", "", ""],
+      6: ["", "", ""],
+      7: ["", "", ""],
+      8: ["", "", ""],
+      9: ["", "", ""],
+    });
+  }; // clearAll ends here.
+} //class Cord ends here.
 
 export default Cord;
