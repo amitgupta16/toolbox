@@ -113,7 +113,7 @@ class LeakRate extends React.Component {
         <button type="button" onClick={this.calculateLeak}>
           Calculate
         </button>
-        <label>{this.state.err}</label>
+        <label style={{color:"red"}}>{this.state.err}</label>
         <br></br>
         <label>He Laminar Flow (mbar l/s):</label>
         <label>{heLam}</label>
