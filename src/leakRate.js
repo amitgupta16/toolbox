@@ -31,9 +31,9 @@ class LeakRate extends React.Component {
     }
 
     //check if hePurity is between 0 and 100
-    if(hePurity<=0 || hePurity>1){
+    if(hePurity<0.01 || hePurity>1){
         this.setState({
-            err:"    Error: He Purity must be between 0 & 100"
+            err:"    Error: He Purity must be between 1 & 100"
         });
         return;
     }
