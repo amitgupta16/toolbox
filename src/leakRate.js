@@ -25,7 +25,7 @@ class LeakRate extends React.Component {
     //check if any field is blank
     if(refPress===""||testPress===""||temp===""||hePurity===""||leakRateMass===""){
         this.setState({
-            err:"    Error: Please fill all the fields"
+            err:"    Error: Please fill all data first."
         });
         return;
     }
@@ -103,7 +103,7 @@ class LeakRate extends React.Component {
               </td>
             </tr>
             <tr>
-              <td>Enter Allowed Leak Rate - R134a (gm/yr)</td>
+              <td>Allowed R134a Leak (gm/yr)</td>
               <td>
                 <input type="number" style={{ width: "50px" }} id="leakRate" />
               </td>
@@ -114,7 +114,7 @@ class LeakRate extends React.Component {
           Calculate
         </button>
         <label style={{color:"red"}}>{this.state.err}</label>
-        <br></br>
+        <br/><br/>
         <label>He Laminar Flow (mbar l/s):</label>
         <label>{heLam}</label>
         <br></br>

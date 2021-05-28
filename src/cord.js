@@ -69,7 +69,7 @@ class Cord extends React.Component {
 
     return (
       <div>
-        <h3>Calculating Pipe Length.</h3>
+        <h3>Pipe Length Calculation.</h3>
         <div>
           <table>
             <thead>
@@ -88,7 +88,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="1"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -97,7 +97,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="1"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -106,7 +106,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="1"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -118,7 +118,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="2"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -127,7 +127,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="2"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -136,7 +136,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="2"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -148,7 +148,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="3"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -157,7 +157,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="3"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -166,7 +166,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="3"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -178,7 +178,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="4"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -187,7 +187,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="4"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -196,7 +196,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="4"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -208,7 +208,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="5"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -217,7 +217,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="5"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -226,7 +226,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="5"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -238,7 +238,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="6"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -247,7 +247,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="6"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -256,7 +256,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="6"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -268,7 +268,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="7"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -277,7 +277,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="7"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -286,7 +286,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="7"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -298,7 +298,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="8"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -307,7 +307,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="8"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -316,7 +316,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="8"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -328,7 +328,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="9"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -337,7 +337,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="9"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -346,7 +346,7 @@ class Cord extends React.Component {
                     type="number"
                     className="data"
                     name="9"
-                    style={{ width: "100px" }}
+                    style={{ width: "50px" }}
                     onChange={this.onHandleClick}
                   />
                 </td>
@@ -356,6 +356,7 @@ class Cord extends React.Component {
           <label>Total Length: </label>
           <label>{totalLength.toFixed(2)}</label>
         </div>
+        <br/>
         <div>
           <button type="button" onClick={this.clearAll}>
             Clear all fields

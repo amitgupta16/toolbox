@@ -24,7 +24,7 @@ class Cp extends React.Component {
     //with blank data, array returns NaN
     if(upper==="" || lower==="" || array.includes(NaN)){
       this.setState({
-        err: "Error: Please fill all the data."
+        err: "Error: Please fill all data first."
       });
       return;
     }
