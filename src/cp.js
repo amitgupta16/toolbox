@@ -44,6 +44,10 @@ class Cp extends React.Component {
       })
   } //onClick ends here...
 
+  createDataFields(){
+    return <label> add loop here </label>
+  }
+
   render() {
     //getting data from state
     let upper = this.state.upper;
@@ -183,6 +187,7 @@ class Cp extends React.Component {
             </tr>
           </tbody>
         </table>
+        <div id="datas">{this.createDataFields()}</div>
         <button type="button" onClick={this.onClick}> Calculate</button>
         <label style={{color:"red"}}>{this.state.err}</label><br/><br/>
         <table>
